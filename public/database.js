@@ -44,8 +44,7 @@ function validateDatabaseStatus() {
 
   // On sucess then call the API Post call to add bulk data
   retrieveAll.onsuccess = function () {
-    const resultsRange = retrieveAll.result.length > 0;
-    if (resultsRange) {
+    if (retrieveAll.result.length > 0) {
       fetch("/api/transaction/bulk", {
         method: "POST",
         body: JSON.stringify(retrieveAll.result),
