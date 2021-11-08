@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coding-boot-camp/unit18hw.git"
+    "url": "https://github.com/elsabalk/OnlineOfflineBudgetTrackers.git"
   },
   "author": "ElsaBalk",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/coding-boot-camp/unit18hw/issues"
+    "url": "https://github.com/elsabalk/OnlineOfflineBudgetTrackers.git"
   },
-  "homepage": "https://github.com/coding-boot-camp/unit18hw#readme",
+  "homepage": "https://github.com/elsabalk/OnlineOfflineBudgetTrackers.git",
   "dependencies": {
     "compression": "^1.7.4",
     "express": "^4.17.1",
