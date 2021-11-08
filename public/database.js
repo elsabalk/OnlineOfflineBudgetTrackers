@@ -1,7 +1,7 @@
 let database;
 
-// Let us open our database using DB name bugetApp with a version 1
-const requestDB = indexedDB.open("bugetApp", 1);
+// Let us open our database using DB name BudgetTracker with a version 1
+const requestDB = indexedDB.open("BudgetTracker", 1);
 
 // This function will detect database version inconsitency based on the IDBOpenDBRequest interface
 requestDB.onupgradeneeded = function (event) {
